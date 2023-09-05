@@ -1,0 +1,27 @@
+PODS:
+  - PKJSON/RxSwift (0.1.0):
+    - RxRelay
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+
+DEPENDENCIES:
+  - PKJSON/RxSwift (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - RxRelay
+    - RxSwift
+
+EXTERNAL SOURCES:
+  PKJSON:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PKJSON: f0134e4ffe7823554aa42047a6c67feb8f823346
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+
+PODFILE CHECKSUM: 1ffb07164901ac5912efc0348e30247e21544e4b
+
+COCOAPODS: 1.12.1

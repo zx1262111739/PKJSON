@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'PKJSON_Example' do
+#  pod 'PKJSON', :path => '../'
+
+  target 'PKJSON_Tests' do
+    inherit! :search_paths
+    pod 'PKJSON/RxSwift', :path => '../'
+    
+  end
+end
