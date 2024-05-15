@@ -11,7 +11,7 @@ let package = Package(
         .library(name: "PKJSON", targets: ["PKJSON"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ReactiveX/RxSwift.git", .exact("6.6.0")),
+        .package(url: "https://github.com/ReactiveX/RxSwift.git", from: "6.0.0"),
     ],
     targets: [
         .target(name: "PKJSON", dependencies: [
